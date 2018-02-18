@@ -20,4 +20,5 @@ pwd
 ls -la
 ls target -la
 ls ../ -la
+cp target/*.jar ../$CF_APP-releases/
 cp target/*.jar ../$CF_APP-releases/$CF_APP-$VERSION.jar
