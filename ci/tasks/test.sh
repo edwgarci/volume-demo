@@ -15,4 +15,4 @@ java -version
 mvn -v
 
 cd git-assets/
-mvn test
+# mvn test
