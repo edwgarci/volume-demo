@@ -2,7 +2,10 @@
 
 set -xe
 
-VERSION=$(<version/number)
+pwd
+ls -la
+
+# VERSION=$(<version/number)
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
