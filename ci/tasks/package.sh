@@ -5,7 +5,7 @@ set -xe
 pwd
 ls -la
 # VERSION=0.0.0
-ls version -la
+# ls version -la
 VERSION=$(cat ../common-version/number)
 echo $VERSION
 
