@@ -8,7 +8,7 @@ image_resource:
     tag: "latest"
 inputs:
 - name: git-assets
-- name: version
+- name: common-version
 outputs:
 - name: volume-app-releases
 run:
