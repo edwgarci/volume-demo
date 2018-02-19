@@ -4,7 +4,7 @@ set -xe
 
 pwd
 ls -la
-
+VERSION=0.0.0
 # VERSION=$(<version/number)
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
