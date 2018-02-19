@@ -4,9 +4,10 @@ set -xe
 
 pwd
 ls -la
-VERSION=0.0.0
+# VERSION=0.0.0
 ls version -la
-# VERSION=$(<version/number)
+VERSION=$(cat version/number)
+echo $VERSION
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
